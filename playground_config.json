@@ -1,0 +1,86 @@
+{
+  "schema": [
+    {
+      "name": "playerSpeed",
+      "type": "number",
+      "label": "Tốc độ đi bộ",
+      "default": 6.5,
+      "min": 3,
+      "max": 12,
+      "step": 0.5
+    },
+    {
+      "name": "sprintMultiplier",
+      "type": "number",
+      "label": "Hệ số chạy nhanh",
+      "default": 1.7,
+      "min": 1.2,
+      "max": 2.5,
+      "step": 0.1
+    },
+    {
+      "name": "jumpForce",
+      "type": "number",
+      "label": "Lực nhảy",
+      "default": 7.5,
+      "min": 4,
+      "max": 14,
+      "step": 0.5
+    },
+    {
+      "name": "maxHealth",
+      "type": "number",
+      "label": "Máu tối đa",
+      "default": 100,
+      "min": 50,
+      "max": 250,
+      "step": 10
+    },
+    {
+      "name": "maxArmor",
+      "type": "number",
+      "label": "Giáp tối đa",
+      "default": 100,
+      "min": 0,
+      "max": 200,
+      "step": 10
+    },
+    {
+      "name": "sunIntensity",
+      "type": "number",
+      "label": "Cường độ mặt trời",
+      "default": 4.2,
+      "min": 3.0,
+      "max": 8.0,
+      "step": 0.2
+    },
+    {
+      "name": "ambientIntensity",
+      "type": "number",
+      "label": "Cường độ môi trường",
+      "default": 1.6,
+      "min": 1.5,
+      "max": 4.0,
+      "step": 0.1
+    },
+    {
+      "name": "dayCycleMinutes",
+      "type": "number",
+      "label": "Chu kỳ ngày/đêm (phút)",
+      "default": 4,
+      "min": 1,
+      "max": 15,
+      "step": 1
+    }
+  ],
+  "values": {
+    "playerSpeed": 6.5,
+    "sprintMultiplier": 1.7,
+    "jumpForce": 7.5,
+    "maxHealth": 100,
+    "maxArmor": 100,
+    "sunIntensity": 4.2,
+    "ambientIntensity": 1.6,
+    "dayCycleMinutes": 4
+  }
+}
